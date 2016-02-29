@@ -63,6 +63,10 @@
 				icon: CKEDITOR.env.hidpi ? this.path + 'icons/hidpi/speak2type.png' : this.path + 'icons/speak2type.png',
 				toolbar: 'insert,0'
 			} );
+
+			editor.setKeystroke( [
+				[ 120, 'speak2type' ], // F9
+			] );
 		}
 	} );
 	
