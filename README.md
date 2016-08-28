@@ -16,7 +16,7 @@ First install `speak2type` as a part of CKEditor 4 dev repository:
 
 ```bash
 cd PATH_TO_CKEDITOR_DEV/plugins
-git clone git@github.com:cksource/ckeditor4-plugin-speak2type.git speak2type
+git clone git@github.com:Comandeer/ckeditor4-plugin-speak2type.git speak2type
 npm install
 ```
 
