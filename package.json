@@ -1,6 +1,6 @@
 {
   "name": "ckeditor4-plugin-speak2type",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Experimental speaking plugin.",
   "main": "plugin.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "watch": "watch 'npm run build' src",
     "test": "npm run build && cd ../../ && bender server run -c plugins/speak2type/dev/config/bender/default.js",
     "precommit": "npm run lint",
-	"preversion": "npm run build && git add -f plugin.js plugin.js.map",
+    "preversion": "npm run build && git add -f plugin.js plugin.js.map",
     "postversion": "git rm -r --cached plugin.js plugin.js.map && git commit -m \"[ci skip] Cleaning after release.\" && git push origin && git push origin --tags",
     "prepublish": "in-publish && npm run build || exit 0"
   },
