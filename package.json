@@ -4,6 +4,8 @@
   "description": "Experimental speaking plugin.",
   "main": "plugin.js",
   "scripts": {
+    "postinstall": "dev/tasks/install.js",
+    "preuninstall": "dev/tasks/uninstall.js",
     "lint": "eslint -c dev/config/eslint/default.json src/**/*.js",
     "rollup": "rollup -c dev/config/rollup/default.js",
     "build": "npm run lint && npm run rollup",
@@ -20,6 +22,8 @@
   },
   "keywords": [
     "CKEditor4",
+    "plugin",
+    "speak to type",
     "Speech API"
   ],
   "files": [
@@ -28,7 +32,8 @@
     "dialogs",
     "icons",
     "images",
-    "lang"
+    "lang",
+    "dev/tasks"
   ],
   "author": {
     "name": "Comandeer",
