@@ -34,7 +34,7 @@ If you just want to install the plugin and use it in your editor, simply do:
 
 ```bash
 cd PATH_TO_CKEDITOR
-npm install [--save] ckeditor4-plugin-boilerplate
+npm install [--save] ckeditor4-plugin-speak2type
 ```
 
 The plugin would be downloaded, symlinked into your CKEditor's `plugins` directory and added to your `config.js`. That's it – plugin is ready to be used!
@@ -45,7 +45,7 @@ If you want to uninstall the plugin, simply do:
 
 ```bash
 cd PATH_TO_CKEDITOR
-npm remove [--save] ckeditor4-boilerplate
+npm remove [--save] ckeditor4-plugin-speak2type
 ```
 
 The plugin would be deleted along with the symlink and entry from your `config.js`.
