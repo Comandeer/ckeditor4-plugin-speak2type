@@ -1,6 +1,6 @@
 {
   "name": "ckeditor4-plugin-speak2type",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Experimental speaking plugin.",
   "main": "plugin.js",
   "scripts": {
